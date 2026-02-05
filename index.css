@@ -1,0 +1,134 @@
+body{
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  background: linear-gradient(#640d14, #023e8a, #250902);
+}
+
+#photo{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px auto 0px auto;
+    display: block;
+    border: 5px solid pink;
+} 
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#age{
+    background-color: pink;
+    width: 110px;
+    border-radius: 10px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 5px;
+}
+
+#date{
+  background-color: pink;
+    width: 100px;
+    border-radius: 10px;   
+     padding: 5px 5px 5px 5px;
+     margin-bottom: 5px;
+}
+
+#name{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.gift-img{
+    width: 400px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: url("images/Ninja.jpg");
+    height: 400px;
+    margin: 0px auto 0px auto;
+    background-size: cover;
+}
+
+.gift-img:hover{
+    background-image: url("images/naruto-shippuden.gif");
+    background-position: center;
+    background-size: contain;
+}
+
+#gift-img2{
+        width: 400px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: url("images/Jinchuriki.jpg");
+    height: 400px;
+    margin: 0px auto 0px auto;
+    background-size: cover;
+}
+
+#gift-img2:hover{
+    background-image: url("images/naruto-anime.gif");
+    background-size: cover;
+}
+
+#gift-img3{
+       width: 400px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: url("images/swordman.jpg");
+    height: 400px;
+    margin: 0px auto 0px auto;
+    background-size: cover;
+}
+
+#gift-img3:hover{
+    background-image: url("images/Itachi-uchiha.gif");
+    background-size: cover;
+ }
+
+#gift-img4{
+       width: 400px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: url("images/download.jpg");
+    height: 400px;
+    margin: 0px auto 0px auto;
+    background-size: cover;
+}
+
+#gift-img4:hover{
+    background-image: url("images/itachi.gif");
+    background-size: cover;
+}
+
+
+#gift-img5{
+       width: 400px;
+    border: 1px solid pink;
+    border-radius: 10px;
+    background-image: url("images/ZoroOnePiece.jpg");
+    height: 250px;
+    margin: 0px auto 0px auto;
+    background-size: cover;
+}
+
+#gift-img5:hover{
+    background-image: url("images/uchiha-madara.gif");
+    background-size: cover;
+}
+.gift-section{
+    margin-top: 50px;
+}
+a{
+    color: white;
+}
+a:hover{
+    color:aqua;
+}
+
+.footer{
+    font-style: italic;
+}
